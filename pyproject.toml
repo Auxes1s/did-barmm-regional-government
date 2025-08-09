@@ -1,0 +1,22 @@
+[project]
+name = "night_time_lights"
+version = "0"
+description = ""
+authors = [
+    {name = "Auxes1s",email = "muignacio@up.edu.ph"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11, <3.13"
+dependencies = [
+    "pandas (>=2.3.1,<3.0.0)",
+    "matplotlib (>=3.10.5,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "missingno (>=0.5.2,<0.6.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
